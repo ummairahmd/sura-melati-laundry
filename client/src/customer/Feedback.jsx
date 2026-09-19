@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
-import API from "../api/API";
+import API from "../api/api";
 import { FaStar } from "react-icons/fa";
 import "../assets/css/feedback.css";
 
