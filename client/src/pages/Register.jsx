@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import API from "../api/API";
+import API from "../api/api";
 import Swal from "sweetalert2";
 
 import "../assets/css/auth.css";
