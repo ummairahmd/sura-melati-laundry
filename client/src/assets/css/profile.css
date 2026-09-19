@@ -1,0 +1,130 @@
+.profile-page{
+    min-height:100vh;
+    background:#f5f7fb;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:40px;
+}
+
+/* profile card */
+.profile-card{
+    width:450px;
+    background:white;
+    padding:40px;
+    border-radius:25px;
+    box-shadow:
+    0 15px 40px rgba(0,0,0,0.08);
+    border:1px solid #e5e7eb;
+}
+
+/* title */
+.profile-card h2{
+    text-align:center;
+    color:#193b68;
+    font-size:30px;
+    margin-bottom:30px;
+    font-weight:700;
+}
+
+/* profile image */
+.profile-image-box{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.profile-image-box img{
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #dbeafe;
+    box-shadow:
+    0 8px 20px rgba(0,0,0,.15);
+}
+
+/* upload button */
+.upload-photo{
+    display:block;
+    width:max-content;
+    margin:20px auto 0;
+    padding:10px 25px;
+    background:#193b68;
+    color:white;
+    border-radius:25px;
+    cursor:pointer;
+    font-size:14px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.upload-photo:hover{
+    background:#2563eb;
+    transform:translateY(-2px);
+}
+
+/* hide input */
+.upload-photo input{
+    display:none;
+}
+
+/* form */
+.profile-form label{
+    display:block;
+    margin-top:18px;
+    margin-bottom:8px;
+    color:#193b68;
+    font-weight:600;
+    font-size:14px;
+}
+
+.profile-form input{
+    width:100%;
+    padding:13px 15px;
+    border-radius:12px;
+    border:1px solid #d1d5db;
+    outline:none;
+    font-size:15px;
+    box-sizing:border-box;
+    transition:.3s;
+}
+
+.profile-form input:focus{
+    border-color:#193b68;
+    box-shadow:
+    0 0 0 4px rgba(25,59,104,.1);
+}
+
+/* save button */
+.profile-form button{
+    width:100%;
+    margin-top:30px;
+    padding:15px;
+    border:none;
+    border-radius:15px;
+    background:#193b68;
+    color:white;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.profile-form button:hover{
+    background:#2563eb;
+    transform:translateY(-3px);
+    box-shadow:
+    0 8px 20px rgba(37,99,235,.25);
+}
+
+/* responsive */
+@media(max-width:600px){
+    .profile-page{
+        padding:20px;
+    }
+
+    .profile-card{
+        width:100%;
+        padding:30px;
+    }
+}
