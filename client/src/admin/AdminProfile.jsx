@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../assets/css/admin.css";
-import API from "../api/API";
+import API from "../api/api";
 import Swal from "sweetalert2";
 
 function AdminProfile() {
