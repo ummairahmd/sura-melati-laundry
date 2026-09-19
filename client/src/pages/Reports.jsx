@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import API from "../api/API";
+import API from "../api/api";
 import "../assets/css/report.css";
 import logo_laundry from "../assets/images/logo_laundry.jpeg";
 
