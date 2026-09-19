@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import API from "../api/API";
+import API from "../api/api";
 import "../assets/css/dashboard.css";
 import AIChatbot from "../components/AIChatbot";
 
