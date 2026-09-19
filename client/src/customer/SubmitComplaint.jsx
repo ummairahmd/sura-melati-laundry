@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import API from "../api/API";
+import API from "../api/api";
 import {useNavigate} from "react-router-dom";
 import "../assets/css/complaint.css";
 import Swal from "sweetalert2";
